@@ -4,3 +4,17 @@ author: "Monica"
 date: "1/27/2020"
 output: html_document
 ---
+We are going to make plots in R using the ggplot2 package from tidyverse
+
+
+```{r}
+library(tidyverse)
+library(readxl)
+library(here)
+```
+
+#(read-data)
+```{r}
+ca_np<-read_csv(here("data/ca_np.csv"))
+```
+
