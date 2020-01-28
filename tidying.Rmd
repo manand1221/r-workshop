@@ -1,0 +1,22 @@
+---
+title: "Tidying"
+author: "Monica"
+date: "1/28/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(here)
+library(readxl)
+library(janitor)
+library(tidyverse)
+
+```
+
+
+```{r}
+inverts <- read_excel(here("data", "inverts.xlsx"))
+```
+
